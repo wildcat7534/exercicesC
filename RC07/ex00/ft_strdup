@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int ft_strlen(char *str)
+{
+	int taille = 0;
+	while( str[i] != '\0')
+	{
+		taille += 1;
+	}
+	return taille;
+}
+char *ft_strdup( char *src )
+{
+	int departoctet = malloc(ft_strlen(src));
+	//printf("int depart :%d ", departoctet );
+	
+}
